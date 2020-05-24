@@ -1,0 +1,132 @@
+/* Adds Avenir font to directory*/
+@font-face {
+  font-family: Avenir-Roman;
+  src: url(AvenirLTStd-Roman.otf) format("opentype");
+}
+
+/* Set background picture*/
+body {
+    background: url("../images/homepage.jpeg") no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Set global font*/
+.globalFont {
+    font-family: "Avenir-Roman", sans-serif;
+}
+
+/* Adds nav bar*/
+.topnav {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    overflow: hidden;
+    background: black;
+}
+
+.topnav h1 h3 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.topnav a {
+    color: #7b7b7b;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    opacity: .6;
+    transition: opacity .3s;
+    transition-timing-function: ease-in;
+}
+
+.topnav a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.topnav-right {
+    float: right;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(0%, -50%);
+}
+
+.mainquote{
+    line-height: 120%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 120px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+
+.mainquote p{
+    text-shadow: 1px 1px black;
+}
+
+.introButton{
+    background-color: transparent;
+    border: none;
+    color: #005897;
+    padding: 32px 32px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    transition: background-color .5s;
+    transition-timing-function: ease-out;
+}
+
+#buttonBorder{
+    border-style: solid;
+    border-color: #005897;
+}
+
+.introButton:hover{
+    background: #005897;
+    color: black;
+    padding: 32px 32px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    opacity: 1;
+}
+
+.aboutQuote {
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+
+.aboutQuote p{
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.aboutQuote h3 {
+    font-size: 80px;
+    line-height: 120%;
+}
+
+.headshot{
+    text-align: left;
+    height: 700px;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    transform: translate(0%, -50%);
+}
